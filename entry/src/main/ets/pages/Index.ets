@@ -9,7 +9,7 @@ let 变量名:变量类型=值
 */
 //定义+输出
 let title:string='苹果'
-let count:number=1
+let count:number=0
 let isSelect:boolean=true
 console.log('商品名称：',title,'数量:',count,'是否要买',isSelect)
 //数组
