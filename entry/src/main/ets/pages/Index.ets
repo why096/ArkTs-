@@ -9,7 +9,7 @@ let 变量名:变量类型=值
 */
 //定义+输出
 let title:string='苹果'
-let count:number=0
+let count:number=1
 let isSelect:boolean=true
 console.log('商品名称：',title,'数量:',count,'是否要买',isSelect)
 //数组
@@ -20,6 +20,26 @@ let 数组名:类型[]=[]
 */
 let titlelist:string[]=['1','2','3']
 console.log('数组：',titlelist)
+//对象(定义接口)
+/*
+interface 接口名{
+  title:string
+  price:number
+}
+let 对象名:接口名={
+  title=
+  price=
+}
+*/
+interface item{
+  title:string
+  price:number
+
+}
+let thins:item={
+  title:'花瓶',
+  price:10
+}
 @Entry
 @Component
 struct Index {
